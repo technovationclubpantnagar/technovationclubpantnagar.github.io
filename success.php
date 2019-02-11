@@ -1,5 +1,11 @@
-<?php
+<html>
+ <body>
 
-echo "The flag is 'ctf'"
+<?php 
+   
+   echo "the flag is asdf";
+  
+  ?>
 
-?>
+</body>
+</html>
