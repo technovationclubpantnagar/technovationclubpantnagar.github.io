@@ -1,0 +1,23 @@
+<html>
+<head>
+<title>CTF challenge</title>
+</head>
+<body>
+<form name="form" onsubmit="validateForm()" action="success.php">
+	Enter Password<input type ="text" id="password"><br><br>
+	<input type = "submit" value="Check Password" onclick="validateForm">
+</form>
+
+<script>
+function validateForm() {
+  var x = document.forms["form"]["password"].value;
+  if (x != "This is it") {
+    alert("Wrong password");
+    return false;
+  }
+  else
+	return true;
+}
+</script>
+</body>
+</html>
